@@ -51,7 +51,7 @@ var winner = function() {
       (three.innerHTML === 'O' && five.innerHTML === 'O' && seven.innerHTML === 'O')) {
         alert('O wins!');
         window.location.reload();
-      } else if (counter >= 9) {
+      } else if (counter >= 10) {
         alert('The Cat won');
         window.location.reload();
       }
